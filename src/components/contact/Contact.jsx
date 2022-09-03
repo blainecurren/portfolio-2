@@ -1,0 +1,71 @@
+import React from "react";
+import "./contact.css";
+import Email from "../../img/email.png";
+import Phone from "../../img/phone.png";
+import Address from "../../img/address.png";
+import { useRef } from "react";
+import emailjs from "emailjs-com";
+
+const Contact = () => {
+  const form = useRef();
+
+  const handleSubmit = (e) => {
+    e.preventDefault();
+
+    emailjs
+      .sendForm(
+        "service_wkr4qi1",
+        "template_bi7ryto",
+        form.current,
+        "8KJjbI8SO3C-XpFMJ"
+      )
+      .then(
+        (result) => {
+          console.log(result.text);
+        },
+        (error) => {
+          console.log(error.text);
+        }
+      );
+  };
+
+  return (
+    <div className="c">
+      <div className="c-bg"></div>
+      <div className="c-wrapper">
+        <div className="c-left">
+          <h1 className="c-title">Let's discuss your project</h1>
+          <div className="c-info">
+            <div className="c-info-item">
+              <img src={Phone} alt="" className="c-icon" />
+              +1 940 704 2282
+            </div>
+            <div className="c-info-item">
+              <img className="c-icon" src={Email} alt="" />
+              contact: blaine.curren@gmail.com
+            </div>
+            <div className="c-info-item">
+              <img className="c-icon" src={Address} alt="" />
+              Wichita Falls, TX
+            </div>
+          </div>
+        </div>
+        <div className="c-right">
+          <p className="c-desc">
+            <b>What's your story?</b> Get in touch. Always available for
+            freelancing if the right project comes along.
+          </p>
+          <form ref={form} onSubmit={handleSubmit}>
+            <input type="text" placeholder="Name" name="user_name" />
+            <input type="text" placeholder="Subject" name="user_subject" />
+            <input type="text" placeholder="Email" name="user_email" />
+            <textarea rows="5" placeholder="Message" name="message" />
+            <button>Submit</button>
+          </form>
+        </div>
+      </div>
+    </div>
+  );
+};
+
+export default Contact;
