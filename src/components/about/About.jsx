@@ -1,5 +1,5 @@
 import React from "react";
-import css from "./about.css";
+import "./about.css";
 import Award from "../../img/award.png";
 
 const About = () => {
