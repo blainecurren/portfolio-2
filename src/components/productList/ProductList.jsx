@@ -1,7 +1,7 @@
 import React from "react";
 import "./productList.css";
 import Product from "../product/Product";
-import { products } from "../../data.js";
+import { products } from "../../data";
 
 const ProductList = () => {
   return (
@@ -10,7 +10,7 @@ const ProductList = () => {
         <h1 className="pl-title">Create & inspire. It's Blaine</h1>
         <p className="pl-desc">
           This is a creative portfolio that your work has been waiting for.
-          Beautiful hoomes, stunning portfolio styles & a whole lot more awaits
+          Beautiful homes, stunning portfolio styles & a whole lot more awaits
           inside.
         </p>
       </div>
