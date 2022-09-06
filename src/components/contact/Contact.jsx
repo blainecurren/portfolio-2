@@ -36,7 +36,7 @@ const Contact = () => {
       <div className="c-bg"></div>
       <div className="c-wrapper">
         <div className="c-left">
-          <h1 className="c-title">Let's discuss your project</h1>
+          <h1 className="c-title">Let's discuss the future</h1>
           <div className="c-info">
             <div className="c-info-item">
               <img src={Phone} alt="" className="c-icon" />
@@ -54,8 +54,8 @@ const Contact = () => {
         </div>
         <div className="c-right">
           <p className="c-desc">
-            <b>What's your story?</b> Get in touch. Always available for
-            freelancing if the right project comes along.
+            <b>Want to work together?</b> Feel free to get in touch with me down
+            below. Go ahead, try it, it works I promise.
           </p>
           <form ref={form} onSubmit={handleSubmit}>
             <input type="text" placeholder="Name" name="user_name" />
