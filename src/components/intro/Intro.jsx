@@ -22,8 +22,8 @@ const Intro = () => {
             </div>
           </div>
           <p className="i-desc">
-            These are just some of the technologies I've used in the projects
-            within my portfolio.
+            Just a little list of some of the technologies I've used within this
+            very portfolio.
           </p>
         </div>
       </div>
