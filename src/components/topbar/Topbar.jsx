@@ -6,7 +6,7 @@ export default function Topbar({ menuOpen, setMenuOpen }) {
       <div className="wrapper">
         <div className="left">
           <a href="#intro" className="logo">
-            Portfolio.
+            blaine.
           </a>
           <div className="itemContainer">
             <span>+1-940-704-2282</span>
