@@ -11,11 +11,11 @@ export default function Topbar({ menuOpen, setMenuOpen }) {
             portfolio.
           </a>
           <div className="itemContainer">
-            <img src={Phone} alt="" className="c-icon" />;
+            <img src={Phone} alt="" className="c-icon" />
             <span>+1-940-704-2282</span>
           </div>
           <div className="itemContainer">
-            <img className="c-icon" src={Email} alt="" />;
+            <img className="c-icon" src={Email} alt="" />
             <a href="mailto:blaine.curren@gmail.com?body=My custom mail body">
               blaine.curren@gmail.com
             </a>

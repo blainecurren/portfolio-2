@@ -38,7 +38,7 @@ const Contact = () => {
         <div className="c-left">
           <h1 className="c-title">Let's discuss the future</h1>
           <div className="c-info">
-            <div className="c-info-item">
+            {/* <div className="c-info-item">
               <img src={Phone} alt="" className="c-icon" />
               +1 940 704 2282
             </div>
@@ -49,7 +49,7 @@ const Contact = () => {
             <div className="c-info-item">
               <img className="c-icon" src={Address} alt="" />
               Wichita Falls, TX
-            </div>
+            </div> */}
           </div>
         </div>
         <div className="c-right">
