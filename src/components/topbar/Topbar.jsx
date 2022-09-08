@@ -1,12 +1,16 @@
 import "./topbar.scss";
 import Email from "../../img/email.png";
 import Phone from "../../img/phone.png";
+import phoneCall from "../../img/callme-memoji-sticker.png";
 
 export default function Topbar({ menuOpen, setMenuOpen }) {
   return (
     <div className={"topbar " + (menuOpen && "active")}>
       <div className="wrapper">
         <div className="left">
+          <div>
+            <img src={phoneCall} alt="" className="memoji" />
+          </div>
           <a href="#intro" className="logo">
             portfolio.
           </a>
