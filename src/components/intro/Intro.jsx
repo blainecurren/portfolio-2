@@ -1,5 +1,6 @@
 import React from "react";
 import "./intro.scss";
+import Peace from "../../img/peace-memoji-sticker.png";
 
 const Intro = () => {
   return (
@@ -28,7 +29,9 @@ const Intro = () => {
         </div>
       </div>
       <div className="i-right">
-        <div className="i-bg"></div>
+        <div className="i-bg">
+          <img src="Peace" alt="" className="memoji" />
+        </div>
       </div>
     </div>
   );
