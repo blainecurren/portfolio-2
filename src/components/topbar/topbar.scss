@@ -3,7 +3,7 @@
 .topbar {
   width: 100%;
   height: 70px;
-  background-color: #59b256;
+  background-color: $mainColor;
   color: white;
   position: fixed;
   top: 0;
@@ -82,7 +82,7 @@
 
   &.active {
     background-color: white;
-    color: #59b256;
+    color: $mainColor;
 
     a:link,
     a:visited,
@@ -96,14 +96,14 @@
     .hamburger {
       span {
         &:first-child {
-          background-color: #59b256;
+          background-color: $mainColor;
           transform: rotate(45deg);
         }
         &:nth-child(2) {
           opacity: 0;
         }
         &:last-child {
-          background-color: #59b256;
+          background-color: $mainColor;
           transform: rotate(-45deg);
         }
       }

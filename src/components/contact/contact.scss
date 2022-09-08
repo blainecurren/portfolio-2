@@ -9,7 +9,7 @@
 .c-bg {
   width: 20px;
   height: 105%;
-  background-color: #59b256;
+  background-color: $mainColor;
   position: absolute;
 }
 
@@ -33,7 +33,7 @@
 .c-title {
   font-size: 60px;
   width: 80%;
-  margin-top: 15px
+  margin-top: 15px;
 }
 
 .c-info-item {
@@ -78,7 +78,7 @@ textarea {
 button {
   border: none;
   padding: 15px;
-  background-color: #59b256;
+  background-color: $mainColor;
   color: white;
   font-weight: 500;
   cursor: pointer;

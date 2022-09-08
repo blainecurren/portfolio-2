@@ -1,5 +1,5 @@
 import React from "react";
-import "./contact.css";
+import "./contact.scss";
 import Email from "../../img/email.png";
 import Phone from "../../img/phone.png";
 import Address from "../../img/address.png";
