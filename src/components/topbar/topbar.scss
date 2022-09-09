@@ -29,7 +29,7 @@
         font-size: 40px;
         font-weight: 700;
         text-decoration: none;
-        color: black;
+        color: inherit;
         margin-right: 40px;
       }
 
@@ -86,8 +86,8 @@
   }
 
   &.active {
-    background-color: white;
-    color: $mainColor;
+    background-color: $mainColor;
+    color: white;
 
     a:link,
     a:visited,
@@ -101,14 +101,14 @@
     .hamburger {
       span {
         &:first-child {
-          background-color: $mainColor;
+          background-color: white;
           transform: rotate(45deg);
         }
         &:nth-child(2) {
           opacity: 0;
         }
         &:last-child {
-          background-color: $mainColor;
+          background-color: white;
           transform: rotate(-45deg);
         }
       }
