@@ -1,12 +1,15 @@
+@import "../../global.scss";
+
 .c {
   height: 100vh;
   position: relative;
+  overflow: hidden;
 }
 
 .c-bg {
   width: 20px;
-  height: 100%;
-  background-color: #59b256;
+  height: 105%;
+  background-color: $mainColor;
   position: absolute;
 }
 
@@ -30,6 +33,7 @@
 .c-title {
   font-size: 60px;
   width: 80%;
+  margin-top: 15px;
 }
 
 .c-info-item {
@@ -47,6 +51,7 @@
 }
 
 .c-desc {
+  margin-top: 35px;
   font-weight: 200;
 }
 
@@ -74,8 +79,45 @@ textarea {
 button {
   border: none;
   padding: 15px;
-  background-color: #59b256;
+  background-color: $mainColor;
   color: white;
   font-weight: 500;
   cursor: pointer;
+}
+
+@media screen and (max-width: 480px) {
+  .c-wrapper {
+    flex-direction: column;
+    padding: 0px 50px;
+  }
+
+  .c-title {
+    font-size: 30px;
+  }
+
+  .c-info-item {
+    margin: 20px 0px;
+    width: 100%;
+  }
+
+  .c-desc {
+    display: none;
+  }
+
+  form {
+    margin-top: 0px;
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  input {
+    width: 35%;
+    height: 40px;
+    margin: 10px;
+    margin-left: 0;
+  }
+
+  button {
+    margin-top: 10px;
+  }
 }

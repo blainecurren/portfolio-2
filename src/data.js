@@ -1,32 +1,32 @@
 export const products = [
   {
     id: 1,
-    img: "https://i.ibb.co/4TD6cYF/1.jpg",
+    img: "",
     link: "https://github.com/blainecurren",
   },
   {
     id: 2,
-    img: "https://i.ibb.co/4TD6cYF/2.jpg",
+    img: "",
     link: "https://github.com/blainecurren",
   },
   {
     id: 3,
-    img: "https://i.ibb.co/4TD6cYF/3.jpg",
+    img: "",
     link: "https://github.com/blainecurren",
   },
   {
     id: 4,
-    img: "https://i.ibb.co/4TD6cYF/4.jpg",
+    img: "",
     link: "https://github.com/blainecurren",
   },
   {
     id: 5,
-    img: "https://i.ibb.co/4TD6cYF/5.jpg",
+    img: "",
     link: "https://github.com/blainecurren",
   },
   {
     id: 6,
-    img: "https://i.ibb.co/4TD6cYF/6.jpg",
+    img: "",
     link: "https://github.com/blainecurren",
   },
 ];

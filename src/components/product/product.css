@@ -1,3 +1,5 @@
+@import "../../global.scss";
+
 .p {
   width: 30%;
   height: 40vh;
@@ -10,11 +12,11 @@
 
 .p-browser {
   height: 20px;
-  background-color: rgb(243, 242, 242);
+  background-color: lightgray;
   display: flex;
   align-items: center;
   position: sticky;
-  z-index: 2;
+  /* z-index: 2; */
 }
 
 .p-circle {
@@ -33,4 +35,11 @@
 /* for long images */
 .p:hover .p-img {
   transform: translateY(-100%);
+}
+
+@media screen and (max-width: 480px) {
+  .p {
+    width: 40%;
+    height: 20vh;
+  }
 }
