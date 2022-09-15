@@ -1,7 +1,7 @@
 import React from "react";
 import "./about.css";
 import Award from "../../img/award.png";
-import Alaina from "../../img/alaina.png";
+import Macbook from "../../img/macbook-memoji-sticker.png";
 
 const About = () => {
   return (
@@ -9,7 +9,7 @@ const About = () => {
       <div className="a-left">
         <div className="a-card bg"></div>
         <div className="a-card">
-          <img src={Alaina} alt="" className="a-img" />
+          <img src={Macbook} alt="" className="a-img" />
         </div>
       </div>
       <div className="a-right">
