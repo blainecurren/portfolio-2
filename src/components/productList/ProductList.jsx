@@ -1,7 +1,7 @@
 import React from "react";
 import "./productList.css";
 import Product from "../product/Product";
-import { products } from "../../data";
+import { frontEnd, backEnd, fullStack } from "../../data";
 
 const ProductList = () => {
   return (
@@ -10,7 +10,8 @@ const ProductList = () => {
         <h1 className="pl-title">Take a look at a couple of my projects!</h1>
         <p className="pl-desc">
           This is a creative portfolio that I've been working on the past year
-          and a half. Front end to back end, this portfolio has a little bit of it all.
+          and a half. Front end to back end, this portfolio has a little bit of
+          it all.
         </p>
       </div>
       <div className="pl-list">
