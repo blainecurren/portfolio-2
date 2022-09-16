@@ -1,7 +1,7 @@
 import React from "react";
 import "./productList.css";
 import Product from "../product/Product";
-import { frontEnd, backEnd, fullStack } from "../../data";
+import { products } from "../../data";
 
 const ProductList = () => {
   return (

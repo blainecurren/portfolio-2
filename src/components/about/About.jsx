@@ -1,10 +1,6 @@
 import React from "react";
 import "./about.css";
-import Award from "../../img/award.png";
-<<<<<<< HEAD
 import Macbook from "../../img/macbook-memoji-sticker.png";
-=======
->>>>>>> parent of 29c1e34 (changed about me img)
 
 const About = () => {
   return (
@@ -12,15 +8,7 @@ const About = () => {
       <div className="a-left">
         <div className="a-card bg"></div>
         <div className="a-card">
-<<<<<<< HEAD
-          <img src={Macbook} alt="" className="a-img" />
-=======
-          <img
-            src="https://images.pexels.com/photos/3585047/pexels-photo-3585047.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500"
-            alt=""
-            className="a-img"
-          />
->>>>>>> parent of 29c1e34 (changed about me img)
+          <img src={Macbook} className="a-img" />
         </div>
       </div>
       <div className="a-right">
