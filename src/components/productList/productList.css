@@ -13,8 +13,9 @@
 }
 
 .pl-title {
-  font-size: 50px;
+  font-size: 40px;
   font-weight: 600;
+  overflow-y: hidden;
 }
 
 .pl-desc {
