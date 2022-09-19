@@ -15,11 +15,8 @@
 .pl-title {
   font-size: 40px;
   font-weight: 600;
-  overflow-y: hidden;
-}
-
-.pl-desc {
-  margin: 20px 0px;
+  position: relative;
+  top: -10px;
 }
 
 .pl-list {
@@ -27,6 +24,7 @@
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
+  margin-right: 200px;
 }
 
 @media screen and (max-width: 480px) {
