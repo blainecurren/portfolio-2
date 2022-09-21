@@ -8,7 +8,7 @@ import { useState } from "react";
 import Topbar from "./components/topbar/Topbar";
 import Menu from "./components/menu/Menu";
 
-const App = () => {
+function App() {
   const [menuOpen, setMenuOpen] = useState(false);
   return (
     <div className="app">
@@ -22,6 +22,6 @@ const App = () => {
       </div>
     </div>
   );
-};
+}
 
 export default App;
