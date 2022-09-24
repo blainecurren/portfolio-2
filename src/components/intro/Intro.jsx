@@ -1,5 +1,5 @@
 import React from "react";
-import "./intro.scss";
+import "./intro.css";
 import Peace from "../../img/peace-memoji-sticker.png";
 
 const Intro = () => {
