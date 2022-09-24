@@ -59,6 +59,7 @@ h3 {
 
   .ityped-cursor {
     animation: blink 1s infinite;
+    color: black;
   }
 
   @keyframes blink {
@@ -70,20 +71,6 @@ h3 {
     }
   }
 }
-/* @keyframes move {
-  25% {
-    transform: translateY(-50px);
-  }
-  55% {
-    transform: translateY(-110px);
-  }
-  75% {
-    transform: translateY(-150px);
-  }
-  100% {
-    transform: translateY(-200px);
-  }
-} */
 
 .i-title-item {
   height: 50px;
@@ -107,8 +94,9 @@ h3 {
 .peace {
   height: 40%;
   position: absolute;
-  bottom: 0;
+  padding-top: 486.5px;
   right: 0;
+  object-fit: cover;
 }
 
 @media screen and (max-width: 480px) {

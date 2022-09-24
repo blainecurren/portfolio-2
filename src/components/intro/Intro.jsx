@@ -11,7 +11,18 @@ const Intro = () => {
       showCursor: true,
       backDelay: 1500,
       backSpeed: 60,
-      strings: ["Developer", "Desiginer", "Content Creator"],
+      strings: [
+        "HTML",
+        "CSS",
+        "SCSS",
+        "JavaScript",
+        "Node.js",
+        "Express.js",
+        "SQL",
+        "NoSQL / MongoDB",
+        "React",
+        "Heroku",
+      ],
     });
   }, []);
 
