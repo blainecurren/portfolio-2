@@ -1,8 +1,20 @@
-import React from "react";
-import "./intro.css";
+import { useEffect, useRef } from "react";
+import "./intro.scss";
 import Peace from "../../img/peace-memoji-sticker.png";
+import { init } from "ityped";
 
 const Intro = () => {
+  const textRef = useRef();
+
+  useEffect(() => {
+    init(textRef.current, {
+      showCursor: true,
+      backDelay: 1500,
+      backSpeed: 60,
+      strings: ["Developer", "Desiginer", "Content Creator"],
+    });
+  }, []);
+
   return (
     <div className="i" id="intro">
       <div className="i-left">
@@ -11,15 +23,9 @@ const Intro = () => {
           <h1 className="i-name">Blaine.</h1>
           <div className="i-title">
             <div className="i-title-wrapper">
-              <div className="i-title-item">HTML</div>
-              <div className="i-title-item">Git</div>
-              <div className="i-title-item">Javascript</div>
-              <div className="i-title-item">Node.js</div>
-              <div className="i-title-item">Express.js</div>
-              <div className="i-title-item">SQL</div>
-              <div className="i-title-item">NoSQL / MongoDB</div>
-              <div className="i-title-item">React</div>
-              <div className="i-title-item">Heroku</div>
+              <h3>
+                <span ref={textRef}></span>
+              </h3>
             </div>
           </div>
           <p className="i-desc">
