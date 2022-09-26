@@ -1,7 +1,9 @@
+import screenshot from "../src/img/screenshot-test.png";
+
 export const products = [
   {
     id: 1,
-    img: "",
+    img: { screenshot },
     link: "https://github.com/blainecurren",
   },
   {
