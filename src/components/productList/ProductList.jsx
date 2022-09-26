@@ -1,4 +1,3 @@
-import React from "react";
 import "./productList.scss";
 import Product from "../product/Product";
 import { products } from "../../data";
