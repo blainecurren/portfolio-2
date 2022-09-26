@@ -1,5 +1,6 @@
 import React from "react";
 import "./product.css";
+import screenshot from "../../img/screenshot-test.png";
 
 const Product = ({ img, link }) => {
   return (
@@ -10,7 +11,7 @@ const Product = ({ img, link }) => {
         <div className="p-circle"></div>
       </div>
       <a href={link} target="_blank" rel="noreferrer">
-        <img src={img} alt="" className="p-img" />
+        <img src={screenshot} alt="" className="p-img" />
       </a>
     </div>
   );
