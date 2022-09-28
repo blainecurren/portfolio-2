@@ -41,4 +41,20 @@
       }
     }
   }
+  .l-icon {
+    position: absolute;
+    padding: 25px 0 0 98px;
+    cursor: pointer;
+    color: $secondaryColor;
+    bottom: 0;
+  }
+
+  .g-icon {
+    position: absolute;
+
+    cursor: pointer;
+    color: $secondaryColor;
+    bottom: 0;
+    right: 0;
+  }
 }

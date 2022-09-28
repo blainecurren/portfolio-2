@@ -5,16 +5,7 @@ import Phone from "../../img/phone.png";
 import Address from "../../img/address.png";
 import { useRef, useState } from "react";
 import emailjs from "emailjs-com";
-import GitHubIcon from "@mui/icons-material/GitHub";
-import LinkedInIcon from "@mui/icons-material/LinkedIn";
 
-const linkedInClick = () => {
-  window.location.href = "https://www.linkedin.com/in/blaine-curren-27657690";
-};
-
-const githubClick = () => {
-  window.location.href = "https://github.com/blainecurren";
-};
 
 const Contact = () => {
   const form = useRef();
@@ -77,10 +68,7 @@ const Contact = () => {
           </form>
         </div>
       </div>
-      <div>
-        <LinkedInIcon className="l-icon" onClick={linkedInClick} />
-        <GitHubIcon className="g-icon" onClick={githubClick} />
-      </div>
+     
     </div>
   );
 };
