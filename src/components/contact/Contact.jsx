@@ -70,7 +70,7 @@ const Contact = () => {
         </div>
       </div>
       <div>
-        <LinkedInIcon className="l-icon" />
+        <LinkedInIcon className="l-icon"  />
         <GitHubIcon className="g-icon" />
       </div>
     </div>
