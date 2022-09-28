@@ -55,6 +55,20 @@
   font-weight: 200;
 }
 
+.l-icon {
+  position: absolute;
+  padding: 25px 0 0 52px;
+  cursor: pointer;
+  color: $secondaryColor;
+}
+
+.g-icon {
+  position: absolute;
+  padding: 25px;
+  cursor: pointer;
+  color: $secondaryColor;
+}
+
 form {
   margin-top: 20px;
 }
@@ -79,7 +93,7 @@ textarea {
 button {
   border: none;
   padding: 15px;
-  background-color: #2f4454;
+  background-color: $secondaryColor;
   color: white;
   font-weight: 500;
   cursor: pointer;

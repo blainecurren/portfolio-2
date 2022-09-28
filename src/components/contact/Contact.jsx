@@ -5,6 +5,8 @@ import Phone from "../../img/phone.png";
 import Address from "../../img/address.png";
 import { useRef, useState } from "react";
 import emailjs from "emailjs-com";
+import GitHubIcon from "@mui/icons-material/GitHub";
+import LinkedInIcon from "@mui/icons-material/LinkedIn";
 
 const Contact = () => {
   const form = useRef();
@@ -66,6 +68,10 @@ const Contact = () => {
             {done && "Thanks, I'll get back to you ASAP!"}
           </form>
         </div>
+      </div>
+      <div>
+        <LinkedInIcon className="l-icon" />
+        <GitHubIcon className="g-icon" />
       </div>
     </div>
   );
