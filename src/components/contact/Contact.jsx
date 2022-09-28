@@ -9,8 +9,7 @@ import GitHubIcon from "@mui/icons-material/GitHub";
 import LinkedInIcon from "@mui/icons-material/LinkedIn";
 
 const linkedInClick = () => {
-  window.location.href =
-    "https://www.linkedin.com/signup/cold-join?session_redirect=https%3A%2F%2Fwww%2Elinkedin%2Ecom%2Ffeed%2F&trk=login_reg_redirect";
+  window.location.href = "https://www.linkedin.com/in/blaine-curren-27657690";
 };
 
 const githubClick = () => {
