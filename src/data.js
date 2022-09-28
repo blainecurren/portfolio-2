@@ -1,9 +1,11 @@
-import screenshot from "../src/img/screenshot-test.png";
+import photo from "../src/img/screenshot-test.png";
+
+export const photosArr = [photo];
 
 export const products = [
   {
     id: 1,
-    img: { screenshot },
+    img: "{ photo }",
     link: "https://github.com/blainecurren",
   },
   {
