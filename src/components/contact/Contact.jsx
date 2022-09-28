@@ -8,6 +8,15 @@ import emailjs from "emailjs-com";
 import GitHubIcon from "@mui/icons-material/GitHub";
 import LinkedInIcon from "@mui/icons-material/LinkedIn";
 
+const linkedInClick = () => {
+  window.location.href =
+    "https://www.linkedin.com/signup/cold-join?session_redirect=https%3A%2F%2Fwww%2Elinkedin%2Ecom%2Ffeed%2F&trk=login_reg_redirect";
+};
+
+const githubClick = () => {
+  window.location.href = "https://github.com/blainecurren";
+};
+
 const Contact = () => {
   const form = useRef();
   const [done, setDone] = useState(false);
@@ -70,8 +79,8 @@ const Contact = () => {
         </div>
       </div>
       <div>
-        <LinkedInIcon className="l-icon"  />
-        <GitHubIcon className="g-icon" />
+        <LinkedInIcon className="l-icon" onClick={linkedInClick} />
+        <GitHubIcon className="g-icon" onClick={githubClick} />
       </div>
     </div>
   );
