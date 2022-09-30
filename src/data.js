@@ -1,6 +1,6 @@
 import photo from "../src/img/screenshot-test.png";
 
-export const products = [
+export const projects = [
   {
     id: 1,
     title: "u-develop-it",
