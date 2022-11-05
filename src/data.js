@@ -1,10 +1,10 @@
-import photo from "../src/img/screenshot-test.png";
+import robo from "../src/img/robot-glad.jpg";
 
 export const projects = [
   {
     id: 1,
     title: "u-develop-it",
-    img: photo,
+    img: robo,
     link: "https://github.com/blainecurren",
   },
   {
