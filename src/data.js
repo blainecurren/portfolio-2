@@ -1,17 +1,18 @@
 import robo from "../src/img/robot-glad.jpg";
+import buddy from "../src/img/run-buddy.png";
 
 export const projects = [
   {
     id: 1,
-    title: "u-develop-it",
-    img: robo,
-    link: "https://github.com/blainecurren",
+    title: "run-buddy",
+    img: buddy,
+    link: "https://blainecurren.github.io/run-buddy/",
   },
   {
     id: 2,
-    title: "pizza-hunt",
-    img: "",
-    link: "https://github.com/blainecurren",
+    title: "robot-gladiators",
+    img: robo,
+    link: "https://blainecurren.github.io/robot-gladiators/",
   },
   {
     id: 3,
