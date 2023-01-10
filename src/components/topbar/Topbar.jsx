@@ -1,7 +1,9 @@
 import "./topbar.scss";
-import Email from "../../img/email.png";
-import Phone from "../../img/phone.png";
+// import Email from "../../img/email.png";
+// import Phone from "../../img/phone.png";
 import Psst from "../../img/psst-sticker.png";
+import PhoneIcon from "@mui/icons-material/Phone";
+import EmailIcon from "@mui/icons-material/Email";
 
 export default function Topbar({ menuOpen, setMenuOpen }) {
   return (
@@ -13,11 +15,11 @@ export default function Topbar({ menuOpen, setMenuOpen }) {
             portfolio.
           </a>
           <div className="itemContainer">
-            <img src={Phone} alt="" className="c-icon" />
+            <PhoneIcon className="c-icon" />
             <span>+1-940-704-2282</span>
           </div>
           <div className="itemContainer">
-            <img className="c-icon" src={Email} alt="" />
+            <EmailIcon className="c-icon" />
             <a href="mailto:blaine.curren@gmail.com?body=My custom mail body">
               blaine.curren@gmail.com
             </a>
