@@ -19,17 +19,17 @@
   z-index: 2;
 }
 
-.p-circle {
+/* .p-circle {
   width: 6px;
   height: 6px;
   border-radius: 50%;
   margin: 3px;
   background-color: white;
-}
+} */
 
 .p-img {
-  max-width: 100%;
-  max-height: 100%;
+  width: 100%;
+  height: auto;
   transition: all 10s ease;
 }
 
